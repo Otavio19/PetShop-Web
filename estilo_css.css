@@ -1,9 +1,10 @@
 *{
 	margin: 0;
+	padding: 0;
 }
 
 img{
-	width: 670px;
+	width: 630px;
 }
 
 h2{
@@ -16,17 +17,20 @@ h4{
 	font-family:Arial, sans-serif;
 }
 
+h3{
+	text-align: center;
+	background: #03A9F4;
+}
+
 #principal{
-	margin: 20px auto;
+	margin: 0px auto;
 	width: 950px;
-	border: solid red 1px;
 }
 
 
 #rodape{
-	margin: 20px auto;
-	width: 950px;
 	background: #03A9F4;	/* Light 500 (AZUL) */
+	margin-bottom: 10px; 
 }
 
 #logo{
@@ -48,7 +52,6 @@ h4{
 
 #menu ul{
 	list-style: none;
-	display: block;
 }
 
 #menu li{
@@ -69,16 +72,13 @@ h4{
 
 #conteudo{
 	width: 950px;
-	margin: 20px auto;
+	margin-bottom: 20px auto;
 	font-family:Arial, sans-serif;
 }
 
 #publicacoes{
 	width: 680px;
-	padding: 5px;
 	float: left;
-	margin: 20px auto;
-
 }
 
 .post{
@@ -87,5 +87,35 @@ h4{
 	background: #ECEFF1; /*Grey 0 (Cinza)*/
 }
 
+#conteudo-lateral{
+	width: 250px;
+	float: right;
 
+}
+
+.post-lateral{
+	background: #ECEFF1; /*Grey 0 (Cinza)*/
+	margin-bottom: 15px; 
+}
+
+#conteudo-lateral a{
+	text-decoration: none;
+	font-size: 1.3em;
+	font-family: Verdana, sans-serif;
+	color: black;
+
+}
+
+.post-lateral a:hover{
+	background: #81D4FA; /*light 200 (Azul) */
+}
+
+.post-lateral ul{
+	list-style: none;
+}
+
+#cabecalho h3{
+	clear: both;
+	padding: 10px;
+}
 
