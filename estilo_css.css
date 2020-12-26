@@ -16,7 +16,7 @@ h4{
 	font-family:Arial, sans-serif;
 }
 
-#pricipal{
+#principal{
 	margin: 20px auto;
 	width: 950px;
 	border: solid red 1px;
@@ -76,8 +76,14 @@ h4{
 #publicacoes{
 	width: 680px;
 	padding: 5px;
-	border: red solid;
 	float: left;
+	margin: 20px auto;
+
+}
+
+.post{
+	padding: 5px;
+	margin-bottom: 15px; 
 	background: #ECEFF1; /*Grey 0 (Cinza)*/
 }
 
