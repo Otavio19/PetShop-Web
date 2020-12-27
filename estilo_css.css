@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+body{
+	background: #ECEFF1; /*Grey 0 (Cinza)*/
+}
+
 img{
 	width: 630px;
 }
@@ -22,9 +26,21 @@ h3{
 	background: #03A9F4;
 }
 
+.pet img{
+	width: 290px;
+	height: 200px;
+	margin:5px;
+   
+}
+
+.pet:hover {
+	background: #81D4FA; /*light 200 (Azul) */
+}
+
 #principal{
 	margin: 0px auto;
 	width: 950px;
+
 }
 
 
@@ -84,7 +100,7 @@ h3{
 .post{
 	padding: 5px;
 	margin-bottom: 15px; 
-	background: #ECEFF1; /*Grey 0 (Cinza)*/
+	background:	white;
 }
 
 #conteudo-lateral{
@@ -94,8 +110,9 @@ h3{
 }
 
 .post-lateral{
-	background: #ECEFF1; /*Grey 0 (Cinza)*/
+	background: white;
 	margin-bottom: 15px; 
+	padding: 2px;
 }
 
 #conteudo-lateral a{
@@ -117,5 +134,16 @@ h3{
 #cabecalho h3{
 	clear: both;
 	padding: 10px;
+}
+
+#conteudo-pets{
+	width: 890px;
+}
+
+.pet{
+	width: 300px;
+	background: white;
+	float: left;
+	margin: 2px;
 }
 
