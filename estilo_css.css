@@ -191,6 +191,7 @@ opacity:1;
 	background: #03A9F4;	/* Light 500 (AZUL) */
 	border: white 1px solid;
 	border-radius: 8px; 
+	position: fixed;
 }
 
 #topico-pet ul{
